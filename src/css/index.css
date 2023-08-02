@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Staatliches&display=swap'); */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    color: rgb(30,30,30);
+}
+
+#renderArea {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    perspective: 500px; /* Adjust this value to control the parallax depth */
+    transform-style: preserve-3d;
+    transform: scale(0.4);
+}
+
+.object {
+    position: absolute;
+    /* display: inline-block; */
+    opacity: 0.9;
+    opacity: 1;
+}
